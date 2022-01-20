@@ -3,6 +3,9 @@
     background-position: top center ;
     height:100%;
 ">
+
+    <?php include "includes/alert.php"; ?>
+
     <div class="row">
         <div class="col-12">
             <div class="container" style="width: 1000px;">

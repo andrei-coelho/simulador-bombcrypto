@@ -146,10 +146,10 @@
 
     };
 
-    let quantHeros = 10;
+    let quantHeros = 15;
     let herosHTML  = "";
     while (quantHeros > 0) {
-        herosHTML += templateHero();;
+        herosHTML += templateHero();
         quantHeros--;
     }
 

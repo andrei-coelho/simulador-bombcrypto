@@ -15,6 +15,7 @@
         height: 100%;
     "
 >
+    <?php include "includes/alert.php"; ?>
 
     <div class="row">
         <div class="col-12">
@@ -39,10 +40,8 @@
 </div>
 
 <script>
-
     document.querySelector("#btn-back").addEventListener("click", function(e){
         e.preventDefault()
         window.location.replace("<?php url("modulo=home") ?>");
     })
-
 </script>
